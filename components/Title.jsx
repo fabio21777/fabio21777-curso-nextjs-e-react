@@ -1,8 +1,8 @@
-export default function Title() {
+export default function Title(props) {
     return (
-        <div>
-            <h1>Titulo</h1>
-            <h2>subTitulo</h2>
-        </div>
+        <>
+            <h1>{props.title}</h1>
+            <h2>{props.subTitle}</h2>
+        </>
     )
 }

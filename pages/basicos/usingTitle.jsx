@@ -1,10 +1,12 @@
-import Title from "../../components/title"
+import Title from "../../components/Title"
 export default function usingTitle() {
     return (
         <div>
-            <Title/>
-            <Title/>
-            <Title/>
+            <Title  
+                title = "pagina inicial"
+                subTitle = "Faça seu cadastro"
+            />
+
         </div>
     )
 }
