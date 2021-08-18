@@ -3,7 +3,7 @@ export default function usingTitle() {
     return (
         <div>
             <Title  
-                title = "pagina inicial"
+                title = "Fernanda "
                 subTitle = "Faça seu cadastro"
             />
 
