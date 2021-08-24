@@ -3,24 +3,29 @@
 # dependencies
 /tabuleiro/node_modules
 /exercicio/node_modules
+/next-basico/node_modules
 /tabuleiro/.pnp
 /exercicio/.pnp
+/next-basico/.pnp
 .pnp.js
 
 # testing
 /tabuleiro/coverage
 /exercicio/coverage
-
+/next-basico/coverage
 # next.js
 /tabuleiro/.next/
 /exercicio/.next/
+/next-basico/.next/
 /tabuleiro/out/
 /exercicio/out/
+/next-basico/out/
 # vscode
 /.vscode
 # production
 /tabuleiro/build
 /exercicio/build
+/next-basico/build
 
 # misc
 .DS_Store
