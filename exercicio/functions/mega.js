@@ -1,4 +1,5 @@
-function mega(qtd = 6, numbers = []){
+export function mega(qtde = 6, numbers = []){
+    let qtd = +qtde
     if (qtd < 6 && qtd > 60){
        throw "invalidation input "
    }
@@ -11,9 +12,9 @@ function mega(qtd = 6, numbers = []){
        return mega(qtd,[...numbers,randomNumber])
    }
    else{
-       mega(qtd, numbers)
+      return (mega(qtd, numbers))
    }
+
 
 } 
 
-console.log(mega(15))
