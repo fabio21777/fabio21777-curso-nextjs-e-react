@@ -1,31 +1,21 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/tabuleiro/node_modules
-/exercicio/node_modules
-/next-basico/node_modules
-/tabuleiro/.pnp
-/exercicio/.pnp
-/next-basico/.pnp
+/**/node_modules
+/**/.pnp
 .pnp.js
 
 # testing
-/tabuleiro/coverage
-/exercicio/coverage
-/next-basico/coverage
+/**/coverage
 # next.js
-/tabuleiro/.next/
-/exercicio/.next/
-/next-basico/.next/
-/tabuleiro/out/
-/exercicio/out/
-/next-basico/out/
+/**/.next/
+
+/**/out/
 # vscode
 /.vscode
 # production
-/tabuleiro/build
-/exercicio/build
-/next-basico/build
+/**/build
+
 
 # misc
 .DS_Store
