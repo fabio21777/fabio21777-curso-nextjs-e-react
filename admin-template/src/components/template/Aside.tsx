@@ -6,9 +6,9 @@ export default function Aside(){
     return(
         <aside>
             <ul>
-                <ItensAside url = "/" text = "home" icon = {iconHome}/>
-                <ItensAside url = "/" text = "home" icon = {icomBell}/>
-                <ItensAside url = "/" text = "home" icon = {iconAdjustments}/>  
+                <ItensAside url = "/" text = "Inicio" icon = {iconHome}/>
+                <ItensAside url = "/settings" text = "Configurações" icon = {icomBell}/>
+                <ItensAside url = "/notification" text = "Notificações" icon = {iconAdjustments}/>  
             </ul>
         </aside>
     )
