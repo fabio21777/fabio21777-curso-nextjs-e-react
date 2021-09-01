@@ -7,8 +7,8 @@ export default function Aside(){
         <aside>
             <ul>
                 <ItensAside url = "/" text = "Inicio" icon = {iconHome}/>
-                <ItensAside url = "/settings" text = "Configurações" icon = {icomBell}/>
-                <ItensAside url = "/notification" text = "Notificações" icon = {iconAdjustments}/>  
+                <ItensAside url = "/settings" text = "Configurações" icon = {iconAdjustments}/>
+                <ItensAside url = "/notification" text = "Notificações" icon = {icomBell} />  
             </ul>
         </aside>
     )

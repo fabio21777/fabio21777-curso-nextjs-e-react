@@ -8,7 +8,7 @@ interface ItensAsideProps{
 export default function ItensAside(props:ItensAsideProps){
     
     return(
-        <li className={"hover:bg-gray-800"}>
+        <li className={"hover:bg-green-300"}>
             <Link href={props.url}>
                 <a className={`
                     flex 
@@ -19,7 +19,7 @@ export default function ItensAside(props:ItensAsideProps){
                     w-full
                     `}>
                     {props.icon}
-                    <span className={`text-xs font-light text-gray-400`}>
+                    <span className={`text-xs font-light text-black`}>
                         {props.text}
                     </span>
                 </a>

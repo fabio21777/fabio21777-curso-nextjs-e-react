@@ -4,7 +4,7 @@ export default function Home() {
   
   return (
     <div id={style.body} >
-      <Layout title="Home" subTitle = "teste">
+      <Layout title="Fernanda" subTitle = "Souza">
         <h2>TEste</h2>
       </Layout>
     </div>
